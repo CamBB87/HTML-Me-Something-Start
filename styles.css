@@ -1,6 +1,7 @@
 /* Write your CSS here! */ 
 
-h1 {
+#mainHeading {
+    color: red;
     text-align: center;
 }
 
@@ -48,6 +49,10 @@ figcaption {
     height: 300px;
 }
 
+
+.funParagraph {
+    color: green;
+}
 .notationPara {
     font-size: large;
     text-align: center;
