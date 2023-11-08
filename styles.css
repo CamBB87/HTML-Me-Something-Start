@@ -1,6 +1,8 @@
 /* Write your CSS here! */ 
 
-
+h1 {
+    text-align: center;
+}
 
 #body {
     background-color: bisque;
@@ -8,11 +10,11 @@
 
 .heads {
     padding-top: 30px;
-
     text-align: center;
 }
 
 .para {
+    font-size: x-large;
     text-align: center;
     padding-bottom: 30px;
     padding-left: 100px;
@@ -39,8 +41,6 @@ figcaption {
     border-radius: 5%;
     border-style: solid;
     border-color: blue;
-    width: 250px;
-    height: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,6 +49,7 @@ figcaption {
 }
 
 .notationPara {
+    font-size: large;
     text-align: center;
     text-decoration: underline;
     padding: 25px;
@@ -59,14 +60,12 @@ figcaption {
 }
 
 .float-child {
-    
     width: 50%;
     float: left;
     padding-bottom: 30px;
 }  
 
 .float-child2 {
-    
     width: 50%;
     float: left;
     padding-bottom: 30px;

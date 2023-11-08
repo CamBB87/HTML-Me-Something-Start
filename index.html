@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   Welcome to my tutorial on solving a 3x3x3 Rubik's cube
+   <title>Welcome to my tutorial on solving a 3x3x3 Rubik's cube</title>
    <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,9 +15,9 @@
       <article>
          <section>
             <h2 class="heads">-The Basics-</h2>
-            <p class="para"> For starters, we need to know how to handle a Rubik's cube, and how to move sections by
-               reading
-               Rubik's movement notation. Each face/section of the cube has a corrisponding marker for rotating
+            <p class="para"> 
+               For starters, we need to know how to handle a Rubik's cube, and how to move sections by
+               reading Rubik's movement notation. Each face/section of the cube has a corrisponding marker for rotating
                clockwise and counter clockwise. In total there are 12 different markers for a 3x3x3, with 6 of them
                being clockwise rotations, and 6 being counterclockwise rotations.
             </p>
@@ -28,13 +28,13 @@
                <h2 class="heads">-Notation-</h2>
                <p class="para">Assume you hold the cube level with one side facing you:</p>
                <img id="imgHold" src="./images/front.png" alt="front of cube">
-               <p class="para">clockwise notation is just the letter, and counterclockwise is the letter with a '
-                  (apostrophe)
-                  this is called prime.</p>
+               <p class="para">
+                  clockwise notation is just the letter, and counterclockwise is the letter with a '
+                  (apostrophe)this is called prime.
+               </p>
             </div>
             <div class="float-child">
-               <p class="notationPara">1. "D" stands for downward facing side (counterclockwise would be D' "D prime")
-               </p>
+               <p class="notationPara">1. "D" stands for downward facing side (counterclockwise would be D' "D prime")</p>
                <img class="imgNotation" src="./images/D.png" alt="downward side turning clockwise">
                <p class="notationPara">3. "L" stands for left facing side (counterclockwise would be L' "L prime")</p>
                <img class="imgNotation" src="./images/L.png" alt="left facing side turing clockwise">
@@ -52,9 +52,10 @@
          </section>
 
          <section>
-            <div class="notation">
+            <div>
                <h2 class="heads">-How To Solve It-</h2>
-               <p class="para">We will be learning how to solve a 3x3x3 with the F2L method (first two layers). Let's start by choosing 
+               <p class="para">
+                  We will be learning how to solve a 3x3x3 with the F2L method (first two layers). Let's start by choosing 
                   a side to solve. You can start solving from any side of the cube, and the steps would be the same. Although for teaching purposes 
                   let's start by solving the white side first. Usually the white side is seen as bottom or D side of the cube, and yellow is seen as the top or U side.
                </p>
@@ -67,14 +68,15 @@
             <figure>
                <img class="imgNotation" src="./images/cross.webp" alt="solving for the cross">
                <figcaption>
-                  picture provided by 
+                  picture provided by &copy;
                   <a href="https://ukspeedcubes.co.uk/pages/how-to-solve-a-3x3-rubik-s-cube" target="_blank">"UK Speed Cubes"</a>
                </figcaption>
             </figure>
          </section>
          <section>
             <h2 class="heads">-Step Two-</h2>
-            <p class="para">Now we need to fill in the corners of the first layer. First let's turn the cube so the cross you just made is facing down. 
+            <p class="para">
+               Now we need to fill in the corners of the first layer. First let's turn the cube so the cross you just made is facing down. 
                Then ideally there will be a corner peice in the top layer (U layer) that can be placed. A corner peice can be placed if the color that will be facing down 
                is facing any direction but up. Ex.
             </p>
@@ -101,8 +103,36 @@
                <figcaption>(R, U, R')</figcaption>
             </div>
          </section>
+         <section>
+            <h2 class="heads">-Step Three-</h2>
+            <p class="para">
+               Now things get interesting, in this step we will finish the first two layers by placing the edge pieces. 
+               First thing to do is find an edge piece on the top layer, and line up the color not facing the 
+               top with it's matching core color. Ex.
+            </p>
+            <figure>
+               <img class="imgNotation" src="./images/edge.jpg" alt="placing an edge piece for the second layer">
+               <figcaption>lining up an edge piece to be placed</figcaption>
+            </figure>
+            <p class="para">
+               Once you have lined up the edge with the matching center, look at the color facing the top. This will tell you
+               which direction you need to go (left or right). If the top color matches the right side center piece then do
+                (U, R, U', R', U', F', U, F), and if it matches the left side center piece do (U', L', U, L, U, F, U', F').
+            </p>
+            <div class="float-child">
+               <img class="imgNotation" src="./images/leftside.jpg" alt="a edge peice that ready to be placed">
+               <figcaption>(U', L', U, L, U, F, U', F')</figcaption>
+            </div>
+            <div class="float-child2">
+               <img class="imgNotation" src="./images/rightside.jpg" alt="a edge peice that ready to be placed">
+               <figcaption>(U, R, U', R', U', F', U, F)</figcaption>
+            </div>
+         </section>
+         <footer>
+            Sadly that's all the time I have folks, here is a refernce to a good tutorial on solving the last layer:
+            <a href="https://www.youtube.com/watch?v=637mYMLUf8s" target="_blank">Solving The Last Layer</a>
+         </footer>
       </article>
    </main>
 </body>
-
 </html>
