@@ -52,6 +52,11 @@ figcaption {
 
 .funParagraph {
     color: green;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .notationPara {
     font-size: large;
