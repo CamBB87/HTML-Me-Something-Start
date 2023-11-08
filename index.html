@@ -5,24 +5,23 @@
    <title>Welcome to my tutorial on solving a 3x3x3 Rubik's cube</title>
    <link rel="stylesheet" href="styles.css">
 </head>
- 
+
 <body id="body">
    <header>
       <h1 id="mainHeading">Welcome to my tutorial on solving a 3x3x3 Rubik's cube</h1>
       <!--title of web page plus links to the different parts-->
    </header>
+   <section>
+      <h2 class="heads">-The Basics-</h2>
+      <p class="para">
+         For starters, we need to know how to handle a Rubik's cube, and how to move sections by
+         reading Rubik's movement notation. Each face/section of the cube has a corrisponding marker for rotating
+         clockwise and counter clockwise. In total there are 12 different markers for a 3x3x3, with 6 of them
+         being clockwise rotations, and 6 being counterclockwise rotations.
+      </p>
+   </section>
    <main>
       <article>
-         <section>
-            <h2 class="heads">-The Basics-</h2>
-            <p class="para"> 
-               For starters, we need to know how to handle a Rubik's cube, and how to move sections by
-               reading Rubik's movement notation. Each face/section of the cube has a corrisponding marker for rotating
-               clockwise and counter clockwise. In total there are 12 different markers for a 3x3x3, with 6 of them
-               being clockwise rotations, and 6 being counterclockwise rotations.
-            </p>
-         </section>
-
          <section>
             <div>
                <h2 class="heads">-Notation-</h2>
@@ -34,7 +33,8 @@
                </p>
             </div>
             <div class="float-child">
-               <p class="notationPara">1. "D" stands for downward facing side (counterclockwise would be D' "D prime")</p>
+               <p class="notationPara">1. "D" stands for downward facing side (counterclockwise would be D' "D prime")
+               </p>
                <img class="imgNotation" src="./images/D.png" alt="downward side turning clockwise">
                <p class="notationPara">3. "L" stands for left facing side (counterclockwise would be L' "L prime")</p>
                <img class="imgNotation" src="./images/L.png" alt="left facing side turing clockwise">
@@ -55,29 +55,36 @@
             <div>
                <h2 class="heads">-How To Solve It-</h2>
                <p class="para">
-                  We will be learning how to solve a 3x3x3 with the F2L method (first two layers). Let's start by choosing 
-                  a side to solve. You can start solving from any side of the cube, and the steps would be the same. Although for teaching purposes 
-                  let's start by solving the white side first. Usually the white side is seen as bottom or D side of the cube, and yellow is seen as the top or U side.
+                  We will be learning how to solve a 3x3x3 with the F2L method (first two layers). Let's start by
+                  choosing
+                  a side to solve. You can start solving from any side of the cube, and the steps would be the same.
+                  Although for teaching purposes
+                  let's start by solving the white side first. Usually the white side is seen as bottom or D side of the
+                  cube, and yellow is seen as the top or U side.
                </p>
 
             </div>
          </section>
          <section>
             <h2 class="heads">-Step One-</h2>
-            <p class="para">To start we need to make a cross. Unfortunately there are no algorythms to help you here, but I believe in you.</p>
+            <p class="para">To start we need to make a cross. Unfortunately there are no algorythms to help you here,
+               but I believe in you.</p>
             <figure>
                <img class="imgNotation" src="./images/cross.webp" alt="solving for the cross">
                <figcaption>
                   picture provided by &copy;
-                  <a href="https://ukspeedcubes.co.uk/pages/how-to-solve-a-3x3-rubik-s-cube" target="_blank">"UK Speed Cubes"</a>
+                  <a href="https://ukspeedcubes.co.uk/pages/how-to-solve-a-3x3-rubik-s-cube" target="_blank">"UK Speed
+                     Cubes"</a>
                </figcaption>
             </figure>
          </section>
          <section>
             <h2 class="heads">-Step Two-</h2>
             <p class="para">
-               Now we need to fill in the corners of the first layer. First let's turn the cube so the cross you just made is facing down. 
-               Then ideally there will be a corner peice in the top layer (U layer) that can be placed. A corner peice can be placed if the color that will be facing down 
+               Now we need to fill in the corners of the first layer. First let's turn the cube so the cross you just
+               made is facing down.
+               Then ideally there will be a corner peice in the top layer (U layer) that can be placed. A corner peice
+               can be placed if the color that will be facing down
                is facing any direction but up. Ex.
             </p>
             <div class="float-child">
@@ -88,11 +95,13 @@
                <img class="imgNotation" src="./images/good.jpeg" alt="a corner peice that cannot be placed">
                <figcaption>corner can be placed</figcaption>
             </div>
-            <p class="para">If there are no corner pieces ready to be placed. While still holding the cube with the cross facing down, find a corner piece to take out of the bootom layer
+            <p class="para">If there are no corner pieces ready to be placed. While still holding the cube with the
+               cross facing down, find a corner piece to take out of the bootom layer
                and do (R, U, R'). this will get the corner peice on the top layer while keeping your cross.
             </p>
-            <p class="para">Now to actually place the corner piece. Do (U) until the side of corner piece that won't be facing down matches one of the center colors. Then do either (R, U, R') 
-               if the corner peice is on the right side OR (L', U', L) if the corner piece is on the left side. Ex. 
+            <p class="para">Now to actually place the corner piece. Do (U) until the side of corner piece that won't be
+               facing down matches one of the center colors. Then do either (R, U, R')
+               if the corner peice is on the right side OR (L', U', L) if the corner piece is on the left side. Ex.
             </p>
             <div class="float-child">
                <img class="imgNotation" src="./images/left.jpeg" alt="a corner peice that cannot be placed">
@@ -106,8 +115,8 @@
          <section>
             <h2 class="heads">-Step Three-</h2>
             <p class="funParagraph">
-               Now things get interesting, in this step we will finish the first two layers by placing the edge pieces. 
-               First thing to do is find an edge piece on the top layer, and line up the color not facing the 
+               Now things get interesting, in this step we will finish the first two layers by placing the edge pieces.
+               First thing to do is find an edge piece on the top layer, and line up the color not facing the
                top with it's matching core color. Ex.
             </p>
             <figure>
@@ -115,9 +124,12 @@
                <figcaption>lining up an edge piece to be placed</figcaption>
             </figure>
             <p class="para">
-               Once you have lined up the edge with the matching center, look at the color facing the top. This will tell you
-               which direction you need to go (left or right). If the top color matches the right side center piece then do
-                (U, R, U', R', U', F', U, F), and if it matches the left side center piece do (U', L', U, L, U, F, U', F').
+               Once you have lined up the edge with the matching center, look at the color facing the top. This will
+               tell you
+               which direction you need to go (left or right). If the top color matches the right side center piece then
+               do
+               (U, R, U', R', U', F', U, F), and if it matches the left side center piece do (U', L', U, L, U, F, U',
+               F').
             </p>
             <div class="float-child">
                <img class="imgNotation" src="./images/leftside.jpg" alt="a edge peice that ready to be placed">
@@ -135,4 +147,5 @@
       </article>
    </main>
 </body>
+
 </html>
